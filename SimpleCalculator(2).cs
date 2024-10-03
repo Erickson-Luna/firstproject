@@ -38,21 +38,26 @@ namespace Calculator
                 {
                     case "+":
                         result = num1 + num2;
+Console.WriteLine();
                         Console.WriteLine($"Your result: {num1} + {num2} = " + result);
                         break;
                     case "-":
                         result = num1 - num2;
+Console.WriteLine();
                         Console.WriteLine($"Your result: {num1} - {num2} = " + result);
                         break;
                     case "*":
                         result = num1 * num2;
+Console.WriteLine();
                         Console.WriteLine($"Your result: {num1} * {num2} = " + result);
                         break;
                     case "/":
                         result = num1 / num2;
+Console.WriteLine();
                         Console.WriteLine($"Your result: {num1} / {num2} = " + result);
                         break;
                     default:
+Console.WriteLine();
                         Console.WriteLine("That was not a valid option");
                         break;
                 }
